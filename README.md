@@ -5,7 +5,13 @@ A node client for eBay Trading API.
 
 ## Installation
 
-  npm install ebay-api
+npm install ebay-api
+
+## Configuration
+
+Copy env.js.production or env.js.sandbox to env.js file.
+
+If you use calls that set up and retrieve a user\'s authentication token (these calls are: GetSessionID, FetchToken, GetTokenStatus, and RevokeToken), copy appkeys.js.sample to appkeys.js.
 
 ## Example
 ```

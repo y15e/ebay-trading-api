@@ -1,0 +1,9 @@
+// Application keys
+// https://developer.ebay.com/DevZone/account/default.aspx
+var appKeys = {
+  devname: 'Your Developer ID',
+  appname: 'Your application ID',
+  certname: 'Your certificate ID'
+};
+
+module.exports = appKeys;

@@ -1,10 +1,10 @@
 {
-  "name": "@hal9000/ebay-api",
+  "name": "ebay-api",
   "version": "1.0.0",
   "description": "A node client for eBay Trading API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "author": "",
   "license": "ISC"
