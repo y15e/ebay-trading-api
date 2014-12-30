@@ -24,8 +24,6 @@
   // Queue object
   var queue = async.queue(function(task, callback) {
     
-    console.dir(task);
-    
     // call eBay Trading API
     var req = https.request(task.options, function(res) {
       
@@ -58,8 +56,6 @@
   var methods = {
     
     call: function(requestjson, callback) {
-      
-      console.dir(requestjson);
       
       var task = {
         options: methods.createOptionsFromJson(requestjson),
