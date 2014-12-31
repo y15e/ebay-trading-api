@@ -1,11 +1,11 @@
-ebay-api
-========
+ebay-trading-api
+================
 
 A node client for eBay Trading API.
 
 ## Installation
 
-npm install ebay-api
+npm install ebay-trading-api
 
 ## Configuration
 
@@ -15,7 +15,7 @@ If you use calls that set up and retrieve a user\'s authentication token (these 
 
 ## Example
 ```
-var ebay = require('ebay-api');
+var ebay = require('ebay-trading-api');
 
 // Input parameters for GetItem api call.
 // params.data is converted to xml format in the call method.

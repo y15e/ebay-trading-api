@@ -1,5 +1,5 @@
 {
-  "name": "ebay-api",
+  "name": "ebay-trading-api",
   "version": "1.0.0",
   "description": "A node client for eBay Trading API",
   "main": "index.js",
@@ -9,21 +9,20 @@
   "scripts": {
     "test": "node test/index.js"
   },
-  "dependencies", {
+  "dependencies": {
     "async": "latest",
-    "https" : "latest",
     "js2xmlparser": "latest",
     "moment": "latest",
     "xml2js": "latest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fd3s/ebay-api.git"
+    "url": "https://github.com/fd3s/ebay-trading-api.git"
   },
   "author": "Yoshihiro Watanabe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fd3s/ebay-api/issues"
+    "url": "https://github.com/fd3s/ebay-trading-api/issues"
   },
-  "homepage": "https://github.com/fd3s/ebay-api"
+  "homepage": "https://github.com/fd3s/ebay-trading-api"
 }
