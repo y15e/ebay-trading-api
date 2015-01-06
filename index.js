@@ -52,7 +52,7 @@
     req.end();
     
   }, concurrency);
-
+  
   var methods = {
     
     call: function(requestjson, callback) {
@@ -66,6 +66,14 @@
         methods.convertXmlToJson(result, callback);
         methods.logTaskCount();
       });
+      
+    },
+    
+    callApi: function(requestjson, callback) {
+      
+      var apiModule = require('./lib/' + requestjson.callname);
+      
+      apiModule.call(requestjson, callback);
       
     },
     
