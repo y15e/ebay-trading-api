@@ -7,5 +7,4 @@ var params = {
 }
 
 ebay.callApi(params, function(err, result) {
-  console.dir(result);
 });
