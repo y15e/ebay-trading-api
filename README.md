@@ -35,3 +35,7 @@ ebay.call(params, function(err, result) {
   console.dir(result);
 });
 ```
+
+## Test
+
+npm test
