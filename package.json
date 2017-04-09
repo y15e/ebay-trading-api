@@ -1,7 +1,7 @@
 {
   "name": "ebay-trading-api",
-  "version": "1.0.2",
-  "description": "A node client for eBay Trading API",
+  "version": "1.0.3",
+  "description": "Node client for eBay Trading API",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -20,7 +20,7 @@
     "url": "https://github.com/d6er/ebay-trading-api.git"
   },
   "author": "d6er",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/d6er/ebay-trading-api/issues"
   },
