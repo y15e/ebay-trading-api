@@ -9,9 +9,9 @@ npm install ebay-trading-api
 
 ## Configuration
 
-Copy env.js.production or env.js.sandbox to env.js file.
+Copy **env.js.production** or **env.js.sandbox** to **env.js**.
 
-If you use calls that set up and retrieve a user\'s authentication token (these calls are: GetSessionID, FetchToken, GetTokenStatus, and RevokeToken), copy appkeys.js.sample to appkeys.js.
+If you use *GetSessionID*, *FetchToken*, *GetTokenStatus* or *RevokeToken*, copy **appkeys.js.sample** to **appkeys.js** and update devname, appname and certname in appKeys object.
 
 ## Example
 ```
