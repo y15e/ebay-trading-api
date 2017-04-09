@@ -100,7 +100,9 @@
     
     convertJsonToXml: function(json) {
       
-      var xml = js2xmlparser(json.callname, json.data);
+      var xml = js2xmlparser.parse(json.callname, json.data, {
+        declaration: { encoding: 'UTF-8' }
+      });
       
       xml = xml.replace
       ('<' + json.callname + '>', 
